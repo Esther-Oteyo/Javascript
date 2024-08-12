@@ -21,10 +21,10 @@
 // }
 
 
- let percentage = 90;
+ let percentage = 100;
 
-if (percentage >= 90){
-    console.log('You scored an A');
+if (percentage >= 100){
+    console.log('error invalid score');
 }
 else if(percentage >= 80){
     console.log('You scored a B')
@@ -38,3 +38,4 @@ else if(percentage >= 60){
 else{
     console.log('You scored a E')
 }
+  
